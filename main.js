@@ -16,6 +16,10 @@ function removeAds() {
 	for (i = 0; i < list.length; i++) {	
 		list[i].outerHTML='';
 	}
+	e = document.getElementById('left_ads');
+	if (e) {
+		e.outerHTML='';
+	}
 }
 
 removeAds();
