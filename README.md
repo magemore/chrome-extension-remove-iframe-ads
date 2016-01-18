@@ -1,2 +1,2 @@
-# chrome-extemsion-remove-iframe-ads
-chrome extemsion remove iframe ads. simple and small extension as example of dom manipulations from chrome extension.
+# chrome-extension-remove-iframe-ads
+chrome extension remove iframe ads. simple and small extension as example of dom manipulations from chrome extension.
