@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Remove iframes",
+    "description": "Remove iframes typically containing ads",
+    "version": "0.1",
+    "content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["main.js"],
+			"run_at": "document_start",
+			"all_frames": false
+		}
+	]
+}
