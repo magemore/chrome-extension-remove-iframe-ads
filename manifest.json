@@ -3,10 +3,10 @@
     "name": "Remove iframes",
     "description": "Remove iframes typically containing ads",
     "version": "0.1",
-    "content_scripts": [
+	"content_scripts": [
 		{
 			"matches": ["http://*/*", "https://*/*"],
-			"js": ["main.js"],
+			"js": ["jquery-2.2.0.min.js","main.js"],
 			"run_at": "document_start",
 			"all_frames": false
 		}
